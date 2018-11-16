@@ -1,0 +1,43 @@
+h1 {
+	font-weight: lighter;
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 0;
+}
+p {
+	color: #fff;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-weight: lighter;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.socmedia{
+	position: absolute;
+	top: 100%;
+	left: 50%;
+    transform: translate(-53%, -50%);
+}
+
+li {
+	list-style: none;
+	margin: 10px 30px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: .5s;
+	height: 40px;
+	width: 40px;
+}
+
+li:hover{
+	color: #292929;
+	border: 1px solid #292929;
+	transition: .5s;
+}
